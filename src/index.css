@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+:root {
+  --main-bg: #fff;
+  --secondary-bg: #F9FAFD;
+  --text-color: #141A36;
+  --menu-item-inactive-color: #9FB1C6;
+  --item-hover-bg: #f3f5f7;
+  --footer-color: #EAEAEA;
+  --box-shadow: 0 0 8px rgba(0, 0, 0, 0.12); 
+  /* --box-shadow: 0 0 1px rgb(0 0 0 / 13%), 0 1px 3px rgb(0 0 0 / 20%); */
+  /* --box-shadow: rgb(0 0 0 / 14%) 0px 6px 10px; */
+
+  --main-bg-light: #fff;
+  --secondary-bg-light: #F9FAFD;
+  --text-color-light: #141A36;
+  --menu-item-inactive-color-light: #9FB1C6;
+  --item-hover-bg-light: #f3f5f7;
+  --footer-color-light: #EAEAEA;
+  
+  --main-bg-dark: #1B1B1B;
+  --secondary-bg-dark: #040404;
+  --text-color-dark: #fff;
+  --menu-item-inactive-color-dark: #878787;
+  --item-hover-bg-dark: #292929;
+  --footer-color-dark: #161616;
+
+  --page-title-font-size: 28px;
+  --page-title-font-weight: 800;
+  --page-menu-lg-width: 300px;
+  --page-menu-sm-width: 150px;
+
+  --primary-color: #00C74E;
+  --secondary-color: #4458D4;
+  --danger-color: #F2306B;
+  
+}
+
+* {
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;        
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* necessario? */
+  overflow-y: hidden;  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.theme-light {
+  --main-bg: var(--main-bg-light);
+  --secondary-bg: var(--secondary-bg-light);
+  --text-color: var(--text-color-light);
+  --menu-item-inactive-color: var(--menu-item-inactive-color-light);
+  --item-hover-bg: var(--item-hover-bg-light);
+  --footer-color: var(--footer-color-light);
+}
+
+.theme-dark {
+  --main-bg: var(--main-bg-dark);
+  --secondary-bg: var(--secondary-bg-dark);
+  --text-color: var(--text-color-dark);
+  --menu-item-inactive-color: var(--menu-item-inactive-color-dark);
+  --item-hover-bg: var(--item-hover-bg-dark);
+  --footer-color: var(--footer-color-dark);
+}
+/* #modal.animateBg { */
+  /* animation-name: modalAnimationBg;
+  animation-duration: 0.35s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease; */
+  /* animation: modalAnimationBg 0.4s forwards ease; */
+/* } */
+
+/* @keyframes modalAnimationBg_ {
+  to {
+    opacity: 1;
+  }
+} */
+
+/* #modalContent.animate { */
+  /* animation-name: modalAnimationContent;
+  animation-duration: 0.4s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease; */
+  /* animation: modalAnimationContent 0.4s forwards ease; */
+/* } */
+
+/* @keyframes modalAnimationContent {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+} */
+
+
+
+
